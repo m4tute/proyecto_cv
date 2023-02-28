@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio Matías Romero</title>
+    <link rel="shortcut icon" href="assets/icon-user.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+   
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!--NAV BAR RESPONSIVE-->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Matías Romero</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav holi">
+          <a class="nav-link" aria-current="page" href="#">Inicio</a>
+          <a class="nav-link" href="#SobreMi">Quien Soy?</a>
+          <a class="nav-link" href="#Skills">Habilidades</a>
+          <a class="nav-link" href="#Proyectos">Proyectos</a>
+          <a class="nav-link" href="#Contacto">Contacto</a>
+          <a class="btn-cv nav-link" download="cv" href="https://drive.google.com/file/d/1P6SfBkhRBL_iRqdRonS2B491zBpFmKBs/view?usp=share_link">Descargar CV</a>
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!--SALUDO DE BIENVENIDA-->
+
+  <header class="hero">
+    <div class='content_bienvenida'>
+      <div class='content_visible'>
+        <p class="visible_p">
+          Hola
+        </p>
+        <ul class="visible_list">
+          <li class="visible_item">mundo !</li>
+          <li class="visible_item">a todos !</li>
+          <li class="visible_item_active">💜</li>
+        </ul>
+      </div>
+    </div>
+  
+  </header>
+
+
+
+  <!--SOBRE MI-->
+  <section id="SobreMi" class="sobre_mi__container">
+    <div class="sobre_mi__fondo__img">
+      <div class="sobre_mi__ilustracion">
+        <figure>
+          <img class="sobre_mi__img" src="assets/hero-devices.png">
+        </figure>
+      </div>
+    </div>
+  
+    <div class="card__container">
+      <div class="card bg-transparent border-0">
+        <div class="card-body">
+          <h2 class="card-title">Matías Romero</h2>
+          <h4 class="card-subtitle">Estudiante de Diseño y Frontend Developer</h4>
+          <p class="card-text">Holaa 🖐, me llamo Matías Romero, tengo 24 años y estoy en la universidad nacional del
+            litoral (UNL) estudiando Lic. en Diseño de la Comunicación Visual en la facultad de arquitectura y diseño
+            (FADU), pero también soy estudiante de Programación y Desarrollo WEB, realicé diversos cursos sobre estos
+            temas así como también fui estudiante de Ingeniería Informatica.</p>
+          <p class="card-text">Me apasiona la música, toco el piano pero también la paso muy bien programando tanto en web
+            como con Arduino, soy técnico en informática y también tengo conocimientos de electrónica.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  
+
+  <main class="main">
+
+    <!-- HERRAMIENTAS QUE USO -->
+    <section id="Skills" class="cards container">
+      <!-- 
+            //Titulo animado: DESCOMENTAR PARA VERLO PERO NO ES RESPONSIVE
+    
+          <div class="container_title ">
+            <svg class="titulo_animado">
+              <path class="titulo_param" id="path">
+                 <animate attributeName="d" from="m0,110 h0" to="m0,110 h1100" dur="6.8s" begin="0s" repeatCount="indefinite"/>
+               </path>
+               <text x="40" y="10" font-size="2rem" font-family="Muli" font-weight="bold" fill='hsla(0, 0, 0, 0)'>
+                 <textPath xlink:href="#path">Herramientas de diseño y desarrollo que utilizo...</textPath>
+               </text>
+            </svg>
+          </div>
+          -->
+    
+      <div class="titulo-herramientas">
+        <h2 class="title title--border">Herramientas de diseño y desarrollo que utilizo...</h2>
+      </div>
+
+      <div class="card__table">
+        <div class="card__element">
+          <p class="card__name">Herramientas</p>
+          <h3 class="card__price">Diseño</h3>
+    
+          <div class="card__items">
+            <div>
+              <img src="assets/icons8-adobe-photoshop-color/icons8-adobe-photoshop-48.svg" alt="Photoshop">
+              <p>Photoshop</p>
+            </div>
+            <div>
+              <img src="assets/icons8-adobe-illustrator-color/icons8-adobe-illustrator-48.svg" alt="illustrator">
+              <p>Illustrator</p>
+            </div>
+            <div>
+              <img src="assets/icons8-adobe-premiere-pro-color/icons8-adobe-premiere-pro-48.svg" alt="premiere">
+              <p>Premiere Pro</p>
+            </div>
+            <div>
+              <img src="assets/icons8-github/icons8-github.svg" alt="github">
+              <p>GitHub</p>
+            </div>
+            <div>
+              <img src="assets/icons8-responsive-nawicon-flat-favicons/Web/icons8-responsive-nawicon-flat-32.png"
+                alt="Responsive">
+              <p>Responsive Design</p>
+            </div>
+            <div>
+              <img src="assets/icons8-visual-studio-code-2019-color/icons8-visual-studio-code-2019-48.svg" alt="VisualS">
+              <p>Visual Studio Code</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="card__element card__element--best">
+          <p class="card__name">Desarrollo</p>
+          <h3 class="card__price">Frontend</h3>
+          <div class="card__items">
+            <div>
+              <img src="assets/icons8-html-5-color/icons8-html-5-48.svg" alt="html5">
+              <p>HTML5</p>
+            </div>
+            <div>
+              <img src="assets/icons8-css3-color/icons8-css3-48.svg" alt="css3">
+              <p>CSS3</p>
+            </div>
+            <div>
+              <img src="assets/icons8-javascript-color/icons8-javascript-48.svg" alt="js">
+              <p>JavaScript</p>
+            </div>
+            <div>
+              <img src="assets/icons8-nodejs-color/icons8-nodejs-48.svg" alt="nodeJs">
+              <p>Node Js</p>
+            </div>
+            <div>
+              <img src="assets/icons8-git-color/icons8-git-48.svg" alt="git">
+              <p>Git</p>
+            </div>
+            <div>
+              <img src="assets/icons8-npm-color/icons8-npm-48.svg" alt="npm">
+              <p>npm</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="card__element">
+          <p class="card__name">Tecnologías</p>
+          <h3 class="card__price">Frameworks</h3>
+          <div class="card__items">
+            <div>
+              <img src="assets/icons8-bootstrap-color/icons8-bootstrap-48.svg" alt="Bootstrap">
+              <p>Bootstrap</p>
+            </div>
+            <div>
+              <img src="assets/icons8-react-blue-ui/icons8-react-40.svg" alt="React">
+              <p>React Js</p>
+            </div>
+            <div>
+              <img src="assets/icons8-angularjs-color/icons8-angularjs-48.svg" alt="Angular">
+              <p>Angular</p>
+            </div>
+            <div>
+              <img src="assets/icons8-material-ui-color/icons8-material-ui-48.svg" alt="Mateial UI">
+              <p>Material UI</p>
+            </div>
+            <div>
+              <img src="assets/icons8-python-color/icons8-python-48.svg" alt="Python">
+              <p>Python</p>
+            </div>
+            <div>
+              <img src="assets/icons8-ruby-programming-language-color/icons8-ruby-programming-language-48.svg" alt="Ruby">
+              <p>Ruby</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!--Proyectos y Certificados-->
+    <section id="Proyectos" class="proyectos container">
+    
+      <div class="proyectos__course">
+        <h2 class="title ">Mis proyectos</h2>
+        <h2 class="sub-title title--border">realizados y en progreso...</h2>
+        <p class="proyectos__paragraph">A continuación iré subiendo mis trabajos tanto de diseño como de desarrollo web.</p>
+        <p class="proyectos__paragraph">He realizado cursos a lo largo de estos años en plataformas digitales como Platzi, Domestika, Udemy, CISCO, el anterior Argentina Programa (#SeProgramar), los cuales cuando obtenga los certificados los subiré, actualmente estoy realizando esta web responsive como proyecto final para el curso de Argentina Programa 4.0 en TICMAS, también estoy haciendo cursos de JavaScript, Python, Base de Datos, React Js y Cyber Seguridad.</p>
+      </div>
+    
+      <figure class="proyectos__picture">
+        <img src="assets/certificado.jpg" class="proyectos__img">
+      </figure>
+    
+    </section>
+
+
+    <!--GALERÍA DE FOTOS DE VISTAS PREVIAS DE PROYECTOS (PROXIMAMENTE) AHORA SOLO FOTOS GENERICAS DE EJEMPLOS-->
+    <div class="textos-gallery">
+      <h2 class="title text-center title--border">Galería de proyectos en proceso</h2>
+      <h2 class="sub-title gal">En esta sección por terminar mi idea es crear una vista previa de mis trabajos de diseño como también proyectos web y programación, a medida que vaya mejorando este sitio web iré agregandolos.</h2>  
+    </div>
+    <div class="gallery__container">
+      <section id="galeria">
+        <img src="./img/img1.jpg" alt="galeria de imagenes">
+        <img src="./img/img2.jpg" alt="galeria de imagenes">
+        <img src="./img/img3.jpg" alt="galeria de imagenes">
+        <img src="./img/img4.jpg" alt="galeria de imagenes">
+        <img src="./img/img5.jpg" alt="galeria de imagenes">
+        <img src="./img/img6.jpg" alt="galeria de imagenes">
+        <img src="./img/img7.jpg" alt="galeria de imagenes">
+        <img src="./img/img8.jpg" alt="galeria de imagenes">
+        <img src="./img/img9.jpg" alt="galeria de imagenes">
+      </section>
+  
+      <section id="contenedor-principal">
+        <div id="contenedor-interno">
+            <img id="img-activa" src="/img/img1.jpg" alt="galeria de imagenes">
+            <button id="btn-cierra" type="button">x</button>
+            <button id="btn-retrocede" type="button">&lt;</button>
+            <button id="btn-adelanta" type="button">&gt;</button>
+        </div>
+      </section>
+    </div>
+
+    
+      
+
+
+  <!--TEXT AREA CONTACTO-->
+
+    <section id="Contacto" class="email container">
+      <figure class="email__picture">
+        <img src="assets/web1.jpg" class="email__img">
+      </figure>
+      <div class="email__container">
+        <h2 class="title">Contactame :)</h2>
+        <p class="about__paragraph">Puedes escribirme un correo, con gusto te responderé!</p>
+
+        <form action="https://formsubmit.co/matias.1465@hotmail.com" method="POST">
+          <div class="form-group">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn-enviar btn btn-primary btn-lg btn-block">Enviar</button>
+          </div>
+        </div>
+        </form>
+        
+    </section>
+
+    
+
+  </main>
+
+
+    <!--FOOTER REDES-->
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__contact">
+                <div class="footer__texts">
+                    <h2 class="title">¿Tienes algunda duda?</h2>
+                    <p class="footer__copy">También puedes encontrarme en mis redes sociales</p>
+                    <p class="mensaje_error">no funcionan los links aún (solo GitHub)</p>
+
+                    <div class="footer__social">
+                        <a href="#" class="footer__link">
+                           <img src="assets/bxl-facebook.svg" class="footer__icon">
+                        </a>
+                        <a href="#" class="footer__link">
+                           <img src="assets/bxl-twitter.svg" class="footer__icon">
+                        </a>
+                        <a href="#" class="footer__link">
+                          <img src="assets/bxl-instagram.svg" class="footer__icon">
+                       </a>
+                        <a href="https://github.com/m4tute" class="footer__link">
+                           <img src="assets/icons8-github/icons8-github.svg" class="footer__icon">
+                        </a>
+                    </div>
+                </div>
+
+                <figure class="footer__picture">
+                    <img src="assets/message-ilustration.svg" class="footer__img">
+                </figure>
+            </div>
+
+            <p class="footer__copyright">
+               &copy; Matías Romero | 
+            </p>
+
+        </div>
+    </footer>
+
+    
+    <script src="./app.js"></script>
+
+</body>
+</html>
